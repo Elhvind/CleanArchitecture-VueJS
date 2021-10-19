@@ -1,10 +1,10 @@
-# Clean Architecture with VueJS v2
+# Clean Architecture with VueJS v2.6
 
 ## Technologies
 
 * ASP.NET Core 5
 * [Entity Framework Core 5](https://docs.microsoft.com/en-us/ef/core/)
-* [Angular 12](https://angular.io/)
+* [VueJS 2.6](https://vuejs.org/)
 * [MediatR](https://github.com/jbogard/MediatR)
 * [AutoMapper](https://automapper.org/)
 * [FluentValidation](https://fluentvalidation.net/)
@@ -14,12 +14,9 @@
 
 1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
 2. Install the latest [Node.js LTS](https://nodejs.org/en/)
-3. Run `dotnet new --install Clean.Architecture.Solution.Template` to install the project template
-4. Create a folder for your solution and cd into it (the template will use it as project name)
-5. Run `dotnet new ca-sln` to create a new project
-6. Navigate to `WebUI/ClientApp` and run `npm install`
-7. Navigate to `WebUI/ClientApp` and run `npm start` to launch the front end (Angular)
-8. Navigate to `WebUI` and run `dotnet run` to launch the back end (ASP.NET Core Web API)
+3. Navigate to `WebUI/ClientApp` and run `npm install`
+4. Navigate to `WebUI/ClientApp` and run `npm start` to launch the front end (VueJS)
+5. Navigate to `WebUI` and run `dotnet run` to launch the back end (ASP.NET Core Web API)
 
 ### Database Configuration
 
@@ -63,7 +60,7 @@ This layer contains classes for accessing external resources such as file system
 
 ### WebUI
 
-This layer is a single page application based on Angular 10 and ASP.NET Core 5. This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only *Startup.cs* should reference Infrastructure.
+This layer is a single page application based on VueJS 2.6 and ASP.NET Core 5. This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only *Startup.cs* should reference Infrastructure.
 
 ## License
 
