@@ -15,7 +15,7 @@
 1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
 2. Install the latest [Node.js LTS](https://nodejs.org/en/)
 3. Navigate to `WebUI/ClientApp` and run `npm install`
-4. Navigate to `WebUI/ClientApp` and run `npm start` to launch the front end (VueJS)
+4. Navigate to `WebUI/ClientApp` and run `npm run serve` to launch the front end (VueJS)
 5. Navigate to `WebUI` and run `dotnet run` to launch the back end (ASP.NET Core Web API)
 
 ### Database Configuration
