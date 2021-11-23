@@ -2,13 +2,13 @@
 
 ## Technologies
 
-* ASP.NET Core 5
-* [Entity Framework Core 5](https://docs.microsoft.com/en-us/ef/core/)
+* [ASP.NET Core 6](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
+* [Entity Framework Core 6](https://docs.microsoft.com/en-us/ef/core/)
 * [VueJS 2.6](https://vuejs.org/)
 * [MediatR](https://github.com/jbogard/MediatR)
 * [AutoMapper](https://automapper.org/)
 * [FluentValidation](https://fluentvalidation.net/)
-* [NUnit](https://nunit.org/), [FluentAssertions](https://fluentassertions.com/), [Moq](https://github.com/moq) & [Respawn](https://github.com/jbogard/Respawn)
+* [xUnit](https://xunit.net/), [FluentAssertions](https://fluentassertions.com/) & [Moq](https://github.com/moq)
 
 ## Getting Started
 

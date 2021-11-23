@@ -2,15 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CleanArchitecture.Infrastructure.Persistence.Configurations
-{
-    public class WeatherForecastConfiguration : IEntityTypeConfiguration<WeatherForecast>
-    {
-        public void Configure(EntityTypeBuilder<WeatherForecast> builder)
-        {
-            builder.HasKey(e => e.Id);
+namespace CleanArchitecture.Infrastructure.Persistence.Configurations;
 
-            builder.Ignore(e => e.TemperatureF);
-        }
+public class WeatherForecastConfiguration : IEntityTypeConfiguration<WeatherForecast>
+{
+    public void Configure(EntityTypeBuilder<WeatherForecast> builder)
+    {
+        builder.HasKey(e => e.Id);
+
+        builder.Ignore(e => e.TemperatureF);
+
+        builder.Ignore(e => e.DomainEvents);
     }
 }

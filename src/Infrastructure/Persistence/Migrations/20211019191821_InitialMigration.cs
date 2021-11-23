@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
+#nullable disable
+
 namespace CleanArchitecture.Infrastructure.Persistence.Migrations
 {
     public partial class InitialMigration : Migration

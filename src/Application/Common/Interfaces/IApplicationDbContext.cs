@@ -1,14 +1,11 @@
 ﻿using CleanArchitecture.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace CleanArchitecture.Application.Common.Interfaces;
+
+public interface IApplicationDbContext
 {
-    public interface IApplicationDbContext
-    {
-        DbSet<WeatherForecast> WeatherForecasts { get; set; }
+    DbSet<WeatherForecast> WeatherForecasts { get; }
 
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
-    }
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }
