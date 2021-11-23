@@ -4,8 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>CleanArchitecture.Application</AssemblyName>
     <RootNamespace>CleanArchitecture.Application</RootNamespace>
-	<ImplicitUsings>enable</ImplicitUsings>
-	<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

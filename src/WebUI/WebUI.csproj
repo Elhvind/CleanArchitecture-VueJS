@@ -4,8 +4,8 @@
         <TargetFramework>net6.0</TargetFramework>
         <AssemblyName>CleanArchitecture.WebUI</AssemblyName>
         <RootNamespace>CleanArchitecture.WebUI</RootNamespace>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
         <SpaRoot>ClientApp\</SpaRoot>
         <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
